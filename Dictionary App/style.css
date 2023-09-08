@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background-color:#B5E5CF;
+}
+
+.container_box{
+    background-color: white;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 75px 45px;
+    border-radius: 11px;
+    box-shadow: 0 20px 40px #96e0bfce;
+}
+
+.container_box > h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar input{
+    padding: 6px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(119, 116, 116, 0.849);
+    font-size: 0.9rem;
+    color: #3D5B59;
+}
+
+.search-bar button{
+    padding: 14px 0;
+    width: 25%;
+    background-color: #85cfae ;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px ;
+
+}
+
+.search-bar button:active{
+    background-color: #334948;
+}
+
+.result{
+    position: relative;
+
+}
+.result h3{
+    font-size: 30px;
+    color: #3D5B59;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.result button{
+    background-color: transparent;
+    color: #3D5B59;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.result .answer{
+    display: flex;
+    gap: 10px;
+    color: #334948;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+}
+
+.answer-details{
+    color: #263534;
+}
+
+.example{
+    color: #263534;
+    font-style: italic;
+    border-left: 4px solid #B5E5CF;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.error{
+    margin-top: 80px;
+    text-align: center;
+}
